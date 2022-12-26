@@ -30,12 +30,12 @@
                 lower_layer {
                         label = "NUMPAD";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  7  |  8  |  9  |     |           |     |     |     |     | BKSP |
+// |  TAB |  7  |  8  |  9  |BTCLR|           |     |     |     |     | BKSP |
 // | CTRL |  4  |  5  |  6  |     |           | LFT | DWN |  UP | RGT | DEL  |
 // | ESC  |  1  |  2  |  3  |  0  |           | BT1 | BT2 | BT3 | BT4 | BT5  |
 //       | LSHIFT GUI |     | SPC |           | ENT |     | ALT |
                         bindings = <
-   &kp TAB   &kp N7 &kp N8 &kp N9 &trans       &trans        &trans        &trans        &trans        &kp BSPC
+   &kp TAB   &kp N7 &kp N8 &kp N9 &bt_clr       &trans        &trans        &trans        &trans        &kp BSPC
    &kp LCTRL &kp N4 &kp N5 &kp N6 &trans       &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp DEL
    &kp ESC   &kp N1 &kp N2 &kp N3 &kp N0       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
          &mt LSHIFT LGUI  &trans  &kp SPACE      &kp RET  &trans   &kp RALT
