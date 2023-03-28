@@ -30,7 +30,7 @@
                 lower_layer {
                         label = "NUMPAD";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  7  |  8  |  9  |BTCLR|           |     |     |     |     | BKSP |
+// |  TAB |  7  |  8  |  9  |BTCLR|           | Mkey|     |     |     | BKSP |
 // | CTRL |  4  |  5  |  6  |     |           | LFT | DWN |  UP | RGT | DEL  |
 // | ESC  |  1  |  2  |  3  |  0  |           | BT1 | BT2 | BT3 | BT4 | BT5  |
 //       | LSHIFT GUI |     | SPC |           | ENT |     | ALT |
